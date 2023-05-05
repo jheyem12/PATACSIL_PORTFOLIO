@@ -1,0 +1,47 @@
+body {
+	background-image: url("images/bg.jpg");
+}
+
+.name {
+	margin-top: 5%;
+}
+
+.name:hover {
+	
+}
+
+.desc {
+	width: 50%;
+	color: white;
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align: justify;
+	transition: transform .5s;
+}
+
+.desc:hover {
+	transform: scale(1.1);
+	background-color: #1d133541;
+}
+
+.person {
+	color: white;
+	font-family: Century Gothic;
+	font-size: 30px;
+	font-weight: bold;
+	transition: transform .5s;
+}
+
+.person:hover {
+	transform: scale(1.1);
+}
+
+.pic {
+	width: 200px;
+	border-radius: 50%;
+	transition: transform .5s;
+}
+
+.pic:hover {
+	transform: scale(1.1);
+}
